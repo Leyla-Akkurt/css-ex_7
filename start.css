@@ -1,0 +1,33 @@
+body{
+    display:grid;
+    grid-template-areas:'greenArea greenArea greenArea'
+                        'yellowArea redArea blueArea' 
+                        'orangeArea orangeArea blueArea';
+ 
+}
+#green {
+  grid-area:greenArea;
+  }
+  
+  #orange {
+    grid-area:orangeArea;
+  }
+  
+  #yellow {
+    grid-area:yellowArea;
+  }
+  
+  #red {
+    grid-area:redArea;
+  }
+  
+  #blue {
+    grid-area:blueArea;
+  }
+  ul{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+    }
+    
+ 
